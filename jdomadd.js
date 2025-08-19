@@ -62,12 +62,16 @@ if (!name) {
 
 
 
-  if (speakText && 'speechSynthesis' in window) {
-  el.addEventListener("click", () => {
-    const uttr = new SpeechSynthesisUtterance(speakText);
-    speechSynthesis.speak(uttr);
-  });
-} else console.info("jdomAdd: Function SpeechSynthesisUtterance is not available on your browser.");
+  if (speakText) {
+  if ('speechSynthesis' in window) {
+    el.addEventListener("click", () => {
+      const uttr = new SpeechSynthesisUtterance(speakText);
+      speechSynthesis.speak(uttr);
+    });
+  } else {
+    console.info("jdomAdd: SpeechSynthesis is not available on this browser.");
+  }
+  }
 
 
 
