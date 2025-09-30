@@ -1,7 +1,6 @@
-# jdomAdd.js - Yūto DOM Factory 🌟
+# jdomAdd
 Create DOM elements with superpowers!  
 jdomAdd() is a flexible utility function for generating HTML elements using up to 30 configuration keys — supporting styles, attributes, events, speech, animation, cards, and even Shadow DOM.  
-Perfect for building family-friendly UIs and educational projects.
 
 ---
 
@@ -13,8 +12,6 @@ Perfect for building family-friendly UIs and educational projects.
 - Reusable card layout, clipboard support, responsive styles
 - Ideal for educational interfaces or playful UI for younger users!
 
-Demo page here
-[Here](https://ytaka500491.github.io/jdomadd/pages/demopage.html)
 ---
 
 📦 Basic Usage
@@ -51,12 +48,11 @@ And many more — supporting full UI generation!
 
 ---
 
-🎮 Example Use Cases
+🎁How to install
 
-- 🧒 Voice-guided interfaces for younger users  
-- 👨‍👩‍👧‍👦 Family calendars and clinic dashboards  
-- 🎮 Game-style buttons and animated cards  
-- 🌗 Theme-switching layouts and responsive widgets
+- cdn https://unpkg.com/jdomadd@1.0.4/jdomAdd.js
+- npm
+  bash`npm install jdomadd`
 
 ---
 
@@ -64,9 +60,4 @@ And many more — supporting full UI generation!
 
 MIT License  
 Feel free to use, modify, and share — especially for creating smiles in your household 😊
-
----
-
-📝 Creator
-
-Crafted with ❤️ by Yūto  
+  
