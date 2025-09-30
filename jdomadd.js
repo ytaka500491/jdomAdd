@@ -191,7 +191,7 @@ if (!name) {
     children.forEach(child => {
 
   if (child?.name && child?.options) {
-    child.options.parent=prparent;
+    child.options.parent=parent;
 
     el.appendChild(jdomAdd(child.name, child.options));
 
